@@ -9,7 +9,7 @@
 } */
 
 img {
-    width: 22%;
+    width: 25%;
 }
 /* h1, h2, h3, h4 {
     border:1px solid rgb(25, 26, 27);
@@ -17,11 +17,11 @@ img {
     padding: 10px , 10px , 10px , 10px
 } */
 
-/* body {
+body {
     background-image: url('lolu.gif');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-} */
+    background-repeat: round
+    
+}
 
 
 
