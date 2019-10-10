@@ -1,8 +1,8 @@
-img {
+/* img {
     width: 25%;
-}
+} */
 
-body {
+.myBlogBack {
     background-image:
      url('lolu.gif'),
      url('TalkativeDisgustingAndeancockoftherock-size_restricted.gif');
@@ -11,8 +11,9 @@ body {
      left;
     background-repeat: no-repeat;
 } 
+
 .icon-bar {
-    width: 300px;
+    width: 275px;
     background-color: rgb(233, 13, 13);
     margin:auto;
   }
@@ -32,4 +33,57 @@ body {
 
   * {
     box-sizing: border-box;
+  }
+
+.footerLeft
+{
+    float: left;
+}
+
+.footerCenter
+{
+    position: absolute;
+    right: 700px
+}
+
+.footerRight
+{
+    float: right;
+}
+.aboutMeBack {
+    background-image: url("LiverpoolStadium.jpg");
+    /* background-repeat: repeat-x; */
+   background-size: cover;
+}
+
+.textAboutMe {
+    background-color: white;
+    position: relative;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.text-block {
+    position: static;
+    right: 30px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 500px;
+  }
+  .textRight {
+      display: flex;
+      flex-direction: row-reverse;
+  }
+
+  .LiverpoolSite {
+      width: 750%;
+  }
+
+  .textBlog {
+      text-align: left;
+      color: black;
+      margin-bottom: 100px;
+      font-size: medium;
   }
