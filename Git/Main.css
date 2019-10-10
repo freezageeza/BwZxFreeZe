@@ -52,8 +52,7 @@
 }
 .aboutMeBack {
     background-image: url("LiverpoolStadium.jpg");
-    /* background-repeat: repeat-x; */
-   background-size: cover;
+    background-size: cover;
 }
 
 .textAboutMe {
@@ -61,7 +60,7 @@
     position: relative;
 }
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .text-block {
     position: static;
@@ -73,17 +72,26 @@ p {
     margin-left: 500px;
   }
   .textRight {
-      display: flex;
-      flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row-reverse;
   }
-
+  
   .LiverpoolSite {
-      width: 750%;
+    width: 750%;
   }
 
   .textBlog {
-      text-align: left;
-      color: black;
-      margin-bottom: 100px;
-      font-size: medium;
+    text-align: left;
+    color: black;
+    margin-bottom: 100px;
+    font-size: medium;
+  }
+
+  .lintonBadge {
+    float: left;
+  }
+  .pub {
+    float: right;
+    width: 40%;
+    height: 20%;
   }
