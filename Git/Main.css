@@ -51,22 +51,33 @@
     float: right;
 }
 .aboutMeBack {
-    background-image: url("LiverpoolStadium.jpg");
+    background-image: 
+        /* url("LiverpoolStadium.jpg"), */
+        url("varsity.jpg");
+    /* background-position: 
+        right,
+        center; */
+    background-repeat: no-repeat;
     background-size: cover;
+    
+
 }
 
 .textAboutMe {
     background-color: white;
     position: relative;
+    background-color: lightgrey;
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .text-block {
+    background-color:rgba(87, 163, 87, 0.5);
     position: static;
-    right: 30px;
-    background-color: black;
+    right: 30x;
     color: white;
+    font-size: 20px;
+    font-style: oblique;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 500px;
@@ -75,7 +86,7 @@ p {
     display: flex;
     flex-direction: row-reverse;
   }
-  
+
   .LiverpoolSite {
     width: 750%;
   }
